@@ -1,0 +1,26 @@
+{
+  "name": "do-power",
+  "version": "1.0.0",
+  "description": "CLI tool to power on all DigitalOcean droplets",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "do-power": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "digitalocean",
+    "cli",
+    "droplets"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "do-wrapper": "^4.5.1",
+    "dotenv": "^16.3.1",
+    "ora": "^7.0.1"
+  }
+}
